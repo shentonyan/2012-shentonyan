@@ -2473,7 +2473,7 @@ if(ox_get_option( 'post_views_fastcgi_cache' )){
 /*
  * 输出全站字数，并匹配书籍
  * 原作者：林木木
- * 修改者：胡鹤仙&ChatGPT
+ * 修改者：申吨言&ChatGPT
  */
 function allwords() {
     global $wpdb;

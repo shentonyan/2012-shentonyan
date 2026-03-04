@@ -132,9 +132,9 @@
 		 }
 		echo '<meta name="twitter:card" content="summary_large_image" />';
 		echo "\n";
-		echo '<meta name="twitter:site" content="@huhexian" />';
+		echo '<meta name="twitter:site" content="@shentonyan" />';
 		echo "\n";
-		echo '<meta name="twitter:creator" content="@huhexian" />';
+		echo '<meta name="twitter:creator" content="@shentonyan" />';
 		echo "\n";
 		echo '<meta property="twitter:image" content="'.get_bloginfo("template_directory").'/images/default_first_img.png" />';
 		echo "\n";
@@ -155,8 +155,8 @@
 
 <?php if( is_singular() ): ?>	
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@huhexian" />
-<meta name="twitter:creator" content="@huhexian" />
+<meta name="twitter:site" content="@shentonyan" />
+<meta name="twitter:creator" content="@shentonyan" />
 <meta name="twitter:title" content="<?php the_title(); ?>" />
 <meta name="twitter:image" content="<?php echo get_content_first_image( get_the_content() ); ?>" />
 <meta property="og:author" content="<?php echo get_the_author_meta('display_name', $post->post_author).'-'.get_bloginfo( 'name' ); ?>" />

@@ -1,7 +1,7 @@
 <?php
 /**
  * The template for displaying the footer
- * https://yinji.org/
+ * https://github.com/shentonyan/2012-shentonyan
  * Contains footer content and the closing of the #main and #page div elements.
  *
  */
@@ -10,7 +10,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<?php if ( ox_get_option( 'footerinfo_first' ) ) { echo ox_get_option( 'footerinfo_first' ); } ?>
-			<p>版权所有 &copy; (2018 - <?php echo date( "Y" ); ?>)  <a href="https://yinji.org">印记</a>│<a href="https://yinji.org/wp-sitemap.xml">网站地图</a>│服务器提供商: <a href="https://app.cloudcone.com/?ref=9587">CloudCone </a>.<br>程序：WordPress│主题：<a href="https://github.com/huhexian/2012-huhexian">Twenty Twelve</a>│本站禁止任何形式的文章转载<br><?php echo allwords(); ?>
+			<p>版权所有 &copy; (2024 - <?php echo date( "Y" ); ?>)  <a href="<?php echo esc_url( home_url( "/" ) ); ?>">申吨言</a>│<a href="<?php echo esc_url( home_url( "/wp-sitemap.xml" ) ); ?>">网站地图</a><br>程序：WordPress│主题：<a href="https://github.com/shentonyan/2012-shentonyan">2012-shentonyan</a>│本站禁止任何形式的文章转载<br><?php echo allwords(); ?>
 </p>
 		</div><!-- .site-info -->
 		<?php if ( ox_get_option( 'footerinfo' ) ) : ?>
